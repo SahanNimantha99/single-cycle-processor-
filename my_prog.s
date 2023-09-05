@@ -1,0 +1,9 @@
+loadi 1 0x05
+loadi 2 0xF5
+loadi 7 0xF0
+mult 4 1 2       //
+sra 1 7 0x02    //
+srl 5 2 0x08    //
+sll 3 2 0x08    //
+ror 6 2 0x05    //
+bne 0xFC 1 2   //
