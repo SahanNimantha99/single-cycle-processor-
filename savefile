@@ -1,0 +1,48 @@
+[timestart] 14
+[size] 1000 600
+[pos] 477 238
+*-2.511075 36 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[treeopen] cpu_tb.mycpu.my_alu.
+[treeopen] cpu_tb.mycpu.my_alu.lshiftUnit.
+@28
+cpu_tb.mycpu.CLK
+@24
+cpu_tb.mycpu.PC[31:0]
+cpu_tb.mycpu.PCout[31:0]
+@22
+cpu_tb.mycpu.INSTRUCTION[31:0]
+@200
+-
+@28
+cpu_tb.mycpu.REGOUT1[7:0]
+@200
+-
+@22
+cpu_tb.mycpu.REGOUT2[7:0]
+@200
+-
+@28
+cpu_tb.mycpu.ALUOP[2:0]
+cpu_tb.mycpu.immSelect
+cpu_tb.mycpu.signSelect
+cpu_tb.mycpu.RSelect
+cpu_tb.mycpu.ASelect
+@200
+-
+@24
+cpu_tb.mycpu.IMMEDIATE[7:0]
+cpu_tb.mycpu.ShiftOut[7:0]
+@200
+-
+@29
+cpu_tb.mycpu.ALURESULT[7:0]
+@200
+-
+@24
+cpu_tb.mycpu.my_alu.lshiftUnit.data1[7:0]
+@28
+cpu_tb.mycpu.my_alu.lshiftUnit.data2[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
